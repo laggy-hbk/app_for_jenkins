@@ -1,0 +1,10 @@
+1. Переходим по адресу: https://hashicorp-releases.yandexcloud.net/terraform/
+Выбираем версию
+2. Скачиваем архив
+wget https://hashicorp-releases.yandexcloud.net/terraform/1.13.2/terraform_1.13.2_linux_amd64.zip
+3. Распковываем архив
+unzip terraform_1.13.2_linux_amd64.zip
+4. Перемещаем
+sudo mv terraform /usr/local/bin
+5. whereis terraform | terraform -v
+
