@@ -1,0 +1,7 @@
+curl https://storage.yandexcloud.net/yandexcloud-yc/install.sh | bash
+yc init
+yc config list
+____________________________
+yc iam create-token          #токен 12ч
+yc config get cloud-id       
+yc config get folder-id
