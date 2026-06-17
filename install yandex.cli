@@ -5,3 +5,4 @@ ____________________________
 yc iam create-token          #токен 12ч
 yc config get cloud-id       
 yc config get folder-id
+yc compute image list
